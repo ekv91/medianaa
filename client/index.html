@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <main>
+      <ul id="numberList"></ul>
+
+      <label for="inputNumber">Add number:</label>
+      <input type="number" placeholder="Enter whole number!" id="dodajInput" />
+      <button id="dodajButton">Add number</button>
+
+      <div class="buttons">
+        <button id="dodajRandom">Add random number</button>
+        <button id="odstraniRandomStevilko">Remove random number</button>
+        <button id="odstraniVse">Clear all numbers</button>
+      </div>
+
+      <button id="add-mediana-btn">Calculate Median</button>
+
+      <table id="table">
+        <thead>
+          <th>ID</th>
+          <th>Mediana</th>
+          <th>Date Added</th>
+          <th>Delete</th>
+        </thead>
+        <tbody></tbody>
+      </table>
+    </main>
+    <script src="index.js"></script>
+  </body>
+</html>
